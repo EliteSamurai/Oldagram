@@ -1,0 +1,111 @@
+body{
+    margin: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+h1{
+    font-family: 'Oleo Script', cursive;
+    padding: 8px 15px;
+    font-size: 40px;
+}
+
+.profilepic{
+    width: 30px;
+    border-radius: 50px;
+    padding: 10px 15px;
+    justify-content: end;
+    height: 45px;
+}
+
+.top-nav{
+    justify-content: space-between;
+    height: 70px; 
+    box-sizing: border-box;
+}
+
+.post,
+.top-nav {
+    border-bottom: 1px solid #C6C6C6;
+}
+
+.post:last-child{
+    border: none;
+}
+
+.post-head,
+.post-head div,
+.top-nav, 
+.profilepic,
+.user-info,
+.icons{
+    display: flex;
+}
+
+.post-head div{
+    flex-direction: column;
+}
+
+.post-head .img{
+    width: 35px;
+    border-radius: 50px;
+    padding: 0px 7px;
+}
+
+.post-head h5 {
+    display: inline-block;
+    font-size: 17px;
+}
+
+.post-head h5,
+.post-head p,
+.likes,
+.user-info, 
+h1 {
+    margin: 0;
+}
+
+.post-head p{
+    text-align: start;
+    display: inline-block;
+    font-size: 15px;
+}
+
+.postimage{
+    width: 100%;
+}
+
+#container{
+    margin-top: 15px;
+}
+
+.icons {
+    margin-top: 10px;
+    width: 130px;
+    justify-content: space-evenly;
+}
+
+.icons img{
+    width: 30px;
+}
+
+.likes {
+    padding: 10px 10px;
+}
+
+
+.user-info{
+    padding: 0 10px;
+}
+
+.user-info h5,
+.user-info p,
+.post-head,
+.post {
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+.user-info p{
+    line-height: 15px;
+    padding-left: 2px;
+}
